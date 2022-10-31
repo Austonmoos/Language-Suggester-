@@ -8,7 +8,11 @@ function useArray() {
   const answer4 = document.querySelector("input[name='question4']:checked");
   const answer5 = document.querySelector("input[name='question5']:checked");
 
-  answers = [answer1,answer2,answer3,answer4,answer5,answer6,answer7];
+  answers = [answer1,answer2,answer3,answer4,answer5];
 
+}
+
+function display() {
+  
 }
 
