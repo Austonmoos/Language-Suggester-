@@ -13,6 +13,25 @@ function useArray() {
 }
 
 function display() {
-  
+  document.getElementById("JavaScript").setAttribute("class", "hidden");
+  document.getElementById("C#").setAttribute("class", "hidden");
+  document.getElementById("Ruby").setAttribute("class", "hidden");
+  document.getElementById(langSuggestion).removeAttribute("class");
 }
+
+//Event Listeners
+window.addEventListener("load", function() {
+  let form = document.querySelector("form");
+  let langSuggestion = "";
+  let answers = [];
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    useArray();
+    display();
+    ();
+  });
+});
+
+
 

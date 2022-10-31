@@ -15,7 +15,19 @@
 
 # Setup/Installation Requirements
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+1.Make a directory on your disk where you would like to clone the repo.
+
+2.Copy the repo link: https://github.com/Austonmoos/Language-Suggester- 
+
+3.Open your terminal and change into the directory you made (cd /path/to/new/directory).
+
+4.Type git clone and paste the URL.
+
+5.Copy and paste the path to index.html into your browser's URL bar to open the page.
+
+# Known Bugs 
+
+* No Known Bugs
 
 MIT License
 
