@@ -33,5 +33,11 @@ window.addEventListener("load", function() {
   });
 });
 
+// Business Logic
+
+function langSuggestion() {
+  
+}
+
 
 
