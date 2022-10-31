@@ -39,3 +39,7 @@ body {
   .button-box {
     text-align: center;
   }
+
+  .button-color {
+    color: blue;
+  }
