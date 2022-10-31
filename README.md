@@ -2,7 +2,7 @@
 
 # By Auston Moos
 
-# short Description
+# Answer the questions to find out what programing language is right for you
 
 # Technologies Used
 
@@ -11,11 +11,11 @@
 * Git
 * GitHub pages
 
-# Description
+# When answering the questions it will display your answers on the right programing language for you. Answer all 5 questions to figure out which one is best for you. 
 
 # Setup/Installation Requirements
 
-1.Make a directory on your disk where you would like to clone the repo.
+1.Make a directory on your desktop where you would like to clone the repo.
 
 2.Copy the repo link: https://github.com/Austonmoos/Language-Suggester- 
 

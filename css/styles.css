@@ -1,3 +1,41 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color:black;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color:white;
+}
+
+.card {
+  margin: 15px;
+  padding: 15px;
+  border: solid 10px;
+  border-radius: 10px 10px 10px 10px;
+  color: antiquewhite;
+}
+
+  h1.card-title {
+    font-weight: 500;
+  }
+
+  li {
+    font-size: medium;
+  }
+
+  #answers {
+    text-align: center;
+    font-weight: 1000;
+    color:antiquewhite
+    border-radius: 10%;
+    background-color:white;
+    padding: 10px;
+  }
+
+  .button-box {
+    text-align: center;
+  }
