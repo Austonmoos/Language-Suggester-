@@ -1,3 +1,28 @@
+// Business Logic
+
+function langSuggestion() {
+
+  let JavaScript = 0;
+  let cSharp = 0;
+  let Ruby = 0;
+
+  for (i = 0; i < answers.length; i++) {
+    if (answers[i].className === "JavaScript") {
+      python += 1;
+    } else if (answers[i].className === "cSharp") {
+      r += 1;
+    } else if (answers[i].className === "Ruby") {
+      assembly += 1;
+    }
+  }
+
+  let langNames = ["JavaScript","cSharp","Ruby"];
+  let tally = [JavaScript,cSharp,Ruby]; 
+  const index = tally.indexOf(Math.max(...tally));
+  langSuggestion = langNames[index];
+
+}
+
 // UI Logic
 
 function useArray() {
@@ -32,56 +57,3 @@ window.addEventListener("load", function() {
     langSuggestion();
   });
 });
-
-// Business Logic
-
-function langSuggestion() {
-
-  let JavaScript = 0;
-  let cSharp =0;
-  let Ruby =0;
-
-  for (i = 0; i < answers.length; i++) {
-    if (answers[i].className === "JavaScript") {
-      python += 1;
-    } else if (answers[i].className === "cSharp") {
-      r += 1;
-    } else if (answers[i].className === "Ruby") {
-      assembly += 1;
-    }
-  }
-
-  let langNames = ["JavaScript","cSharp","Ruby"];
-  let tally = [JavaScript,cSharp,Ruby]; 
-  const index = tally.indexOf(Math.max(...tally));
-  langSuggestion = langNames[index];
-
-}
-
-function suggestLang() {
-
-  let suggestionKey = {
-    python: 0,
-    r: 0,
-    assembly: 0
-  }
-
-  for (let i = 0; i < answers.length; i++) {
-    for (let [key,value] of Object.entries(suggestionKey)) {
-      if (answers[i].className === key) {
-        suggestionKey[key] = value + 1; 
-      }
-    }
-  }
-  
-  const tallies = Object.values(suggestionKey);
-  const index = tallies.indexOf(Math.max(...tallies));
-  langSuggestion = Object.keys(suggestionKey)[index];
-
-}
-
-
-
-
-
-
