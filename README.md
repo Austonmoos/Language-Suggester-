@@ -9,7 +9,6 @@
 * HTML
 * CSS
 * Git
-* GitHub pages
 
 # When answering the questions it will display your answers on the right programing language for you. Answer all 5 questions to figure out which one is best for you. 
 
