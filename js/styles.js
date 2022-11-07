@@ -12,7 +12,7 @@ function useArray() {
 
 }
 
-function display() {
+function updateDisplay() {
   document.getElementById("JavaScript").setAttribute("class", "hidden");
   document.getElementById("cSharp").setAttribute("class", "hidden");
   document.getElementById("Ruby").setAttribute("class", "hidden");
@@ -29,7 +29,7 @@ window.addEventListener("load", function() {
     event.preventDefault();
     useArray();
     langSuggestion();
-    display();
+    updateDisplay();
   });
 });
 

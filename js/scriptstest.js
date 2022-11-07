@@ -31,7 +31,7 @@ window.addEventListener("load", function() {
     event.preventDefault();
     useArray();
     langSuggestion();
-    display();
+    updateDisplay();
   });
 });
 
